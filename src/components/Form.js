@@ -8,23 +8,24 @@ function Form() {
     //console.log(todos)
     const handlesubmit = (e) => {
         e.preventDefault();
-    
-       setTodos([{forms}, ...todos]) 
-       setForms("");
+
+        setTodos([{ forms }, ...todos])
+        setForms("");
     }
 
     return (
-        <div className=' form'>
+        <div className=' form' >
             <form onSubmit={handlesubmit}>
-                <input className='input'
+                <div className='buttoninput'> <input className='input'
                     placeholder='todo'
                     type="text"
                     onChange={(e) => setForms(e.target.value)}
                     value={forms}
-                    
+
                 />
 
-                <button className='button' type='submit'> add</button>
+                    <button className='button' type='submit'> add</button>
+                </div>
 
             </form>
             <ul>
