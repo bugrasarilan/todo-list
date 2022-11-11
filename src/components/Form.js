@@ -33,7 +33,7 @@ function Form() {
                         <li className='list'>
                             <span> {t.forms} </span>
                             <button> edit</button>
-                            <button> delete</button>
+                            <button> delet</button>
                         </li>
                     ))
                 }
