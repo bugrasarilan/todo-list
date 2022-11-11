@@ -1,0 +1,39 @@
+.form{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    background-color: cornsilk;
+    width: 500px;
+    height: 400px;
+    border-radius:20px;
+  
+    
+}
+.input{
+    width: 150px;
+    height: 1.5rem;
+    padding-left: 5px;
+    border: 1.5px solid;
+    border-radius: 10px;
+    margin-top:10px ;
+}
+.button{
+    width: 45px;
+    height: 1.7rem;
+    border: 1.5px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+.button:hover{
+    color: white;
+    background-color: gray;
+    cursor: pointer;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    
+}
