@@ -72,4 +72,7 @@ button {
     input {
      width: 50%;
     }
+    li{
+        width: 250px;
+    }
   }
