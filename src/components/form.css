@@ -1,6 +1,5 @@
 .Full {
     min-height: 100vh;
-    min-width: 470px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,12 +69,12 @@ button {
     flex: auto;
 
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 678px) {
     input {
-     width: 50%;
+     width: 45%;
     }
     .li{
-        width: 270px;
+        width: 250px;
         
     }
   }
