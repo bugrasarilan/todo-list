@@ -71,10 +71,12 @@ button {
 }
 @media only screen and (max-width: 678px) {
     input {
-     width: 45%;
+     width: 35%;
     }
     .li{
-        width: 250px;
-        
+        width: 200px;
+    }
+    .Full{
+      min-width: 50%;
     }
   }
