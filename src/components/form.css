@@ -50,6 +50,7 @@ button {
     list-style: none;
     margin: 0;
     padding: 0;
+   align-items: center;
 }
 
 .li {
@@ -72,7 +73,8 @@ button {
     input {
      width: 50%;
     }
-    li{
-        width: 250px;
+    .li{
+        width: 270px;
+        
     }
   }
