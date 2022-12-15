@@ -7,7 +7,6 @@ function Form() {
     const [todos, setTodos] = useState([]);
     const [edite, setEdite] = useState();
 
-    //console.log(todos)
     const handlesubmit = (e) => {
         e.preventDefault();
 
