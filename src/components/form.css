@@ -84,6 +84,7 @@ button {
     height: 135vh;
   }
   .container {
-    height: 100vh;
+    height: 120vh;
+    margin-right: 50px;
   }
 }
